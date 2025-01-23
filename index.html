@@ -6,51 +6,103 @@
     <title>Ervin Ezzati Jivan - Personal Website</title>
     <link rel="icon" href="https://yt3.ggpht.com/c3IbR0QxIM9u65rQuFKfSJ4_ge3_uatvBc74BEtifBLuxXbLvNuRKt2UUYduXGWoQe_NF9CEfw=s108-c-k-c0x00ffffff-no-rj" type="image/png">
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Comic Sans MS", Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: white;
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
         }
+
+        /* Header */
         header {
-            background-color: #333;
+            background-color: #4caf50;
             color: white;
             padding: 20px;
             text-align: center;
+            border-bottom: 5px solid #2e7d32;
         }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Sections */
         section {
             padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        section img {
+            display: block;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #4caf50;
+            text-align: center;
+        }
+
+        section h5 {
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        /* Links */
+        a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
+            background-color: #4caf50;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            margin-top: 30px;
+            border-top: 5px solid #2e7d32;
         }
-        image{
-             width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin: 0 auto 20px;
+
+        footer a {
+            color: #ffeb3b;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome To My Website</h1>
+        <h1>Welcome to My Website!</h1>
     </header>
 
     <section id="about">
-        <img src="https://yt3.ggpht.com/c3IbR0QxIM9u65rQuFKfSJ4_ge3_uatvBc74BEtifBLuxXbLvNuRKt2UUYduXGWoQe_NF9CEfw=s108-c-k-c0x00ffffff-no-rj" alt=" Profile Image">
+        <img src="https://yt3.ggpht.com/c3IbR0QxIM9u65rQuFKfSJ4_ge3_uatvBc74BEtifBLuxXbLvNuRKt2UUYduXGWoQe_NF9CEfw=s108-c-k-c0x00ffffff-no-rj" alt="Profile Image">
         <h2>About Me</h2>
-
-        <h5>Hi There! I'm Ervin Ezzati Jivan, a 9-year-old tech enthusiast who loves coding and gaming.<br>I enjoy exploring Minecraft, Roblox, and Bloons TD 6. Check out my YouTube channel <a href="https://www.youtube.com/@Explore_With_Ervin" target="_blank">youtube.com/Explore_With_Ervin</a>.</h5>
+        <h5>
+            Hi there! I'm Ervin Ezzati Jivan, a 9-year-old tech enthusiast who loves coding and gaming.<br>
+            I enjoy exploring <b>Minecraft</b>, <b>Roblox</b>, and <b>Bloons TD 6</b>. <br> 
+            Check out my YouTube channel: <a href="https://www.youtube.com/@Explore_With_Ervin" target="_blank">youtube.com/Explore_With_Ervin</a>.
+        </h5>
     </section>
+
     <section id="projects">
-        <h2>Projects</h2>
-        <a href="https://scratch.mit.edu/projects/1097774663/"> Jumpy Rocket </a>
+        <h2>My Projects</h2>
+        <p>Here’s one of my favorite projects:</p>
+        <p><a href="https://scratch.mit.edu/projects/1097774663/" target="_blank"><b>Jumpy Rocket</b></a></p>
     </section>
 
     <section id="contact">
@@ -59,7 +111,8 @@
     </section>
 
     <footer>
-        &copy; 2025 Ervin Ezzati Jivan. All Rights Reserved.
+        &copy; 2025 Ervin Ezzati Jivan. All Rights Reserved.<br>
+        <a href="https://www.youtube.com/@Explore_With_Ervin" target="_blank">Visit My YouTube Channel!</a>
     </footer>
 </body>
 </html>
